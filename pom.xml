@@ -101,7 +101,11 @@
 			<scope>test</scope>
 		</dependency>
 
-
+		<!-- Ajout de Spring Security pour WebSecurityCustomizer et AntPathRequestMatcher -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
 
 	</dependencies>
 	<dependencyManagement>
